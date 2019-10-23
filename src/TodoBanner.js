@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export class TodoBanner extends Component {
     render = () =>
         <h4 className="bg-primary text-white text-center p-2">
-            {this.props.name}'s Quạt bánh đa 1
-            ({this.props.tasks.filter(b => !b.done).length} items to do)
+            {this.props.name}'s Quạt bánh đa 2
+            ({this.props.tasks.filter(a => !a.done).length} items to do)
         </h4>
 }
